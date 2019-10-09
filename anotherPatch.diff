@@ -1,0 +1,33 @@
+diff --git a/TextFile2.txt b/TextFile2.txt
+new file mode 100644
+index 0000000..c9d1e11
+--- /dev/null
++++ b/TextFile2.txt
+@@ -0,0 +1 @@
++"adding next textfile 2" 
+diff --git a/TextFile3.txt b/TextFile3.txt
+new file mode 100644
+index 0000000..f73693a
+--- /dev/null
++++ b/TextFile3.txt
+@@ -0,0 +1 @@
++"test" 
+diff --git a/patch.diff b/patch.diff
+index e69de29..0f1ce6f 100644
+--- a/patch.diff
++++ b/patch.diff
+@@ -0,0 +1,14 @@
++diff --git a/TextFile2.txt b/TextFile2.txt
++deleted file mode 100644
++index c9d1e11..0000000
++--- a/TextFile2.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-"adding next textfile 2" 
++diff --git a/TextFile3.txt b/TextFile3.txt
++deleted file mode 100644
++index f73693a..0000000
++--- a/TextFile3.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-"test" 
