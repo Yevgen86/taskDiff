@@ -1,0 +1,14 @@
+diff --git a/TextFile2.txt b/TextFile2.txt
+deleted file mode 100644
+index c9d1e11..0000000
+--- a/TextFile2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-"adding next textfile 2" 
+diff --git a/TextFile3.txt b/TextFile3.txt
+deleted file mode 100644
+index f73693a..0000000
+--- a/TextFile3.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-"test" 
